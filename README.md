@@ -7,16 +7,16 @@ Model train on 200 epochs.
 # Install Required Packages(must latest veriosn)
 import nltk \
 nltk.download() \
-import json
-import pickle
-import sys 
-import tensorflow as tf
-import tensorflow.contrib.keras as keras
-from tensorflow.contrib.keras.python.keras.models import Sequential
-from tensorflow.contrib.keras.python.keras.layers import Dense, Activation, Dropout
-from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
-from tensorflow.contrib.keras.python.keras.optimizers import SGD
+import json \
+import pickle \
+import sys \
+import tensorflow as tf \
+import keras \
+from tensorflow.keras.models import Sequential \
+from tensorflow.keras.layers import Dense, Activation, Dropout \
+from nltk.stem import WordNetLemmatizer \
+lemmatizer = WordNetLemmatizer() \
+from tensorflow.contrib.keras.python.keras.optimizers import SGD \
 
 # Update the Tensorflow 2.0 
 !pip upgrade tensorflow or !pip install tensorflow2.0
