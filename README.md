@@ -5,8 +5,8 @@ Pass the question from user get the output from bot it more accurate. As well as
 Model train on 200 epochs.
 
 # Install Required Packages(must latest veriosn)
-import nltk
-#nltk.download()
+\ import nltk
+\ nltk.download()
 import json
 import pickle
 import sys 
