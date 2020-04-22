@@ -20,3 +20,9 @@ from tensorflow.contrib.keras.python.keras.optimizers import SGD \
 
 # Update the Tensorflow 2.0 
 !pip upgrade tensorflow or !pip install tensorflow2.0
+
+# Run file follwing way 
+train_chatbot.py \
+if not any error then ok.\
+chatapp.py \
+before that put the .h5 file generated from train_chatbot file.
